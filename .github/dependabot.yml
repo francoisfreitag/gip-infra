@@ -9,6 +9,6 @@ updates:
     # Only directories support globbing.
     # https://docs.github.com/en/code-security/dependabot/working-with-dependabot/dependabot-options-reference#directories-or-directory--
     directories:
-      - /infrastructure/**/terraform/
+      - /infrastructure/**/terraform/*
     schedule:
       interval: daily
